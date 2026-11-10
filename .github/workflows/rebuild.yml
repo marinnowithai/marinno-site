@@ -1,0 +1,12 @@
+# Dispara um novo build no Cloudflare Pages todo dia às 6h (Brasília),
+# para que posts novos do Ciência et al. apareçam no site.
+name: rebuild diário
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -fsS -X POST "${{ secrets.CF_DEPLOY_HOOK }}"

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.marinno.com.br/sitemap.xml
