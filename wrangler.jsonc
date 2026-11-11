@@ -1,0 +1,10 @@
+// Usado apenas se o site for publicado como Worker (Workers Builds).
+// No Cloudflare Pages este arquivo é ignorado.
+{
+  "name": "marinno-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
