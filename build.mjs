@@ -242,8 +242,8 @@ document.querySelectorAll(".filters button").forEach(b=>b.addEventListener("clic
 // ---------- build ----------
 const posts = (await loadPosts()).map(p => ({ ...p, t: "texto" }));
 const links = JSON.parse(await readFile("data/links.json", "utf8"));
-// ordena por data, mais recente primeiro; ano isolado ("2025") conta como fim do ano
-const key = i => (i.d.length === 4 ? i.d + "-12-31" : i.d);
+// ordena por data, mais recente primeiro; ano isolado ("2025") conta como início do ano
+const key = i => (i.d.length === 4 ? i.d + "-01-01" : i.d);
 const feed = [...posts, ...links].sort((a, b) => key(b).localeCompare(key(a)));
 
 await rm("dist", { recursive: true, force: true });
