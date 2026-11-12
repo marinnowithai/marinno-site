@@ -151,10 +151,10 @@ const PAGES = (feed) => ({
 <h2>agora</h2>
 <ul class="plain">
   <li><span class="mono">2026–</span><span>Assessor Especial na Procuradoria Jurídica da UEL</span></li>
-  <li><span class="mono">2025–</span><span>Gestor de projetos de PD&amp;I no LABIM — Laboratório de Biotecnologia Microbiana, UEL</span></li>
-  <li><span class="mono">—</span><span>Sócio da OnDemand, consultoria em inovação e transferência de tecnologia</span></li>
+  <li><span class="mono">2026</span><span>Sócio da OnDemand, consultoria em inovação e transferência de tecnologia</span></li>
   <li><span class="mono">2026–</span><span>Mestrando em Administração no PPGA/UEL</span></li>
   <li><span class="mono">2026–</span><span>Professor convidado nas Faculdades Pequeno Príncipe</span></li>
+  <li><span class="mono">2025–2026</span><span>Gestor de projetos de PD&amp;I no LABIM — Laboratório de Biotecnologia Microbiana, UEL</span></li>
 </ul>
 <h2>últimas</h2>
 <ul class="plain">${feed.slice(0, 3).map(row).join("")}</ul>
@@ -168,19 +168,20 @@ const PAGES = (feed) => ({
 <!-- Para usar foto: coloque public/foto.jpg e descomente a linha abaixo -->
 <!-- <img class="photo" src="/foto.jpg" alt="Marinno Arthur" width="1200" height="800"> -->
 <p><strong>Marinno Arthur</strong> é formado em Direito pela <strong>Universidade Estadual de Londrina</strong> e especialista em Direito Constitucional Contemporâneo. Começou pela pesquisa em direitos humanos e pelo ensino jurídico, coordenou projeto de extensão com egressos do sistema prisional e escreveu sobre pedagogia histórico-crítica aplicada ao direito.</p>
-<p>Chegou à inovação pela própria universidade. Em 2021 assumiu a coordenação do Escritório de Transferência de Tecnologia da <strong>AINTEC/UEL</strong> e, entre 2022 e 2025, foi Assessor Técnico da Agência, cuidando de licenciamento, parcerias universidade-empresa e captação de recursos para projetos de inovação.</p>
-<p>Hoje é Assessor Especial na <strong>Procuradoria Jurídica da UEL</strong>, onde trabalha com direito público e inovação, gestor de projetos de PD&amp;I no <strong>LABIM</strong>, onde estrutura a transferência de bioinsumos para empresas parceiras, e sócio da <strong>OnDemand</strong>. Em 2024 recebeu três Leões de Bronze no <strong>Cannes Lions</strong>, em Design, Creative Data e Direct.</p>
-<p>Na academia, faz mestrado no <strong>PPGA/UEL</strong> pesquisando arquiteturas de transferência de tecnologia em ICTs, cursa especializações em Gestão Pública (UEL) e em Gestão de Ambientes Promotores de Inovação (UNICENTRO), e escreve notas de aula, leituras e ensaios no <a href="https://cienciaetal.bearblog.dev/">Ciência et al.</a></p>
+<p>Chegou à inovação pela própria universidade. Em 2021 assumiu a coordenação do Escritório de Transferência de Tecnologia da <strong>AINTEC/UEL</strong> e, entre 2022 e 2025, foi Assessor Técnico da Agência, cuidando de licenciamentos, parcerias universidade-empresa e captação de recursos para projetos de inovação. Por conta da sua atuação na relação Universidade-Empresa,  2024 recebeu três Leões de Bronze no <strong>Cannes Lions</strong>, em Design, Creative Data e Direct. Neste mesmo período começa a advogar para startups.</p>
+<p>Hoje é Assessor Especial na <strong>Procuradoria Jurídica da UEL</strong>, onde trabalha com direito público e inovação, até julho de 2026 foi gestor de projetos de PD&amp;I no <strong>LABIM</strong>, onde estruturou a transferência de bioinsumos para empresas parceiras> Ainda é sócio da <strong>OnDemand</strong>, empresa de consultoria voltada para projetos de inovação.</p>
+<p>Na academia, faz mestrado no <strong>PPGA/UEL</strong> pesquisando arquiteturas de transferência de tecnologia em ICTs, cursa especializações em Gestão Pública (UEL), com sua monografia versando sobre contratos Universidade-Fundações de Apoio e em Gestão de Ambientes Promotores de Inovação (UNICENTRO), pesquisando sobre transferência de tecnologia no Estado do Paraná. Ainda, e escreve notas de aula, leituras e ensaios no <a href="https://cienciaetal.bearblog.dev/">Ciência et al.</a></p>
 <h2>trajetória</h2>
 <ul class="plain">
   <li><span class="mono">2026–</span><span>Assessor Especial, Procuradoria Jurídica — UEL</span></li>
   <li><span class="mono">2026–</span><span>Mestrado em Administração — PPGA/UEL</span></li>
   <li><span class="mono">2026–</span><span>Professor convidado — Faculdades Pequeno Príncipe</span></li>
-  <li><span class="mono">2025–</span><span>Gestor de projetos de PD&amp;I — LABIM/UEL</span></li>
-  <li><span class="mono">2025–</span><span>Especializações em Gestão Pública (UEL) e Ambientes Promotores de Inovação (UNICENTRO)</span></li>
+  <li><span class="mono">2025–26</span><span>Gestor de projetos de PD&amp;I — LABIM/UEL</span></li>
+  <li><span class="mono">2025–26</span><span>Especializações em Gestão Pública (UEL) e Ambientes Promotores de Inovação (UNICENTRO)</span></li>
   <li><span class="mono">2024</span><span>Três Leões de Bronze — Cannes Lions</span></li>
   <li><span class="mono">2022–25</span><span>Assessor Técnico — Agência de Inovação Tecnológica da UEL (AINTEC)</span></li>
   <li><span class="mono">2021–22</span><span>Coordenador do Escritório de Transferência de Tecnologia — AINTEC/UEL</span></li>
+  <li><span class="mono">2016–21</span><span>Advogado Trabalhista Empresarial</span></li>
   <li><span class="mono">2015–16</span><span>Especialização em Direito Constitucional Contemporâneo — IDCC</span></li>
   <li><span class="mono">2011–16</span><span>Graduação em Direito — UEL</span></li>
 </ul>
@@ -193,11 +194,11 @@ const PAGES = (feed) => ({
 <h1>o que faz</h1>
 <p>Quatro frentes que se alimentam: o direito público dentro da universidade, a gestão de projetos de pesquisa que viram produto, a consultoria para quem está construindo inovação, e a pesquisa e o ensino sobre tudo isso.</p>
 <div class="frente"><h3>Direito público e inovação</h3><span class="mono">procuradoria jurídica · uel</span>
-<p>Pareceres jurídicos, análise de risco regulatório e interpretação de instrumentos normativos em governança institucional, políticas públicas e inovação tecnológica.</p></div>
+<p>Pareceres jurídicos, análise de risco regulatório e interpretação de instrumentos normativos em governança institucional, relações com fundações de apoio, políticas públicas e inovação tecnológica.</p></div>
 <div class="frente"><h3>Gestão de PD&amp;I e transferência de tecnologia</h3><span class="mono">labim · uel</span>
-<p>Metodologias para estruturar a transferência de tecnologia entre o laboratório e empresas parceiras, com foco em bioinsumos: processos, regulamentos e fluxos que aumentam a chance de um projeto chegar ao mercado.</p></div>
+<p>Metodologias para estruturar a transferência de tecnologia entre Institutos de Ciência e Tecnologia (ICTs), desde as atividades do laboratório até tramitações e aprovações necessárias, sempre com foco em atender as demandas da sociedade. Atuação principalmente, mas não exclusivamente, em bioinsumos: processos, regulamentos e fluxos que aumentam a chance de um projeto chegar ao mercado.</p></div>
 <div class="frente"><h3>Consultoria</h3><span class="mono">ondemand</span>
-<p>Para startups e empresas: contratos de transferência de tecnologia, licenciamento e confidencialidade. Para ICTs e ambientes de inovação: políticas de inovação, contratos de P&amp;D e capacitação em propriedade intelectual.</p></div>
+<p>Para startups e empresas: contratos de transferência de tecnologia, licenciamento e confidencialidade. Para ICTs e ambientes de inovação: políticas de inovação, contratos de P&amp;D, organização de hackathons, trilhas de capacitação, captação de fomento e capacitação em propriedade intelectual.</p></div>
 <div class="frente"><h3>Pesquisa e ensino</h3><span class="mono">ppga/uel · faculdades pequeno príncipe</span>
 <p>Pesquisa sobre arquiteturas de transferência de tecnologia em ICTs e interação universidade-empresa. Aulas e palestras sobre propriedade intelectual, captação de recursos e empreendedorismo.</p></div>`,
   },
