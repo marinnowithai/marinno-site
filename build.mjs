@@ -151,10 +151,10 @@ const PAGES = (feed) => ({
 <h2>agora</h2>
 <ul class="plain">
   <li><span class="mono">2026–</span><span>Assessor Especial na Procuradoria Jurídica da UEL</span></li>
-  <li><span class="mono">2026</span><span>Sócio da OnDemand, consultoria em inovação e transferência de tecnologia</span></li>
-  <li><span class="mono">2026–</span><span>Mestrando em Administração no PPGA/UEL</span></li>
+    <li><span class="mono">2026–</span><span>Mestrando em Administração no PPGA/UEL</span></li>
   <li><span class="mono">2026–</span><span>Professor convidado nas Faculdades Pequeno Príncipe</span></li>
   <li><span class="mono">2025–2026</span><span>Gestor de projetos de PD&amp;I no LABIM — Laboratório de Biotecnologia Microbiana, UEL</span></li>
+  <li><span class="mono">2025-</span><span>Sócio da OnDemand, consultoria em inovação e transferência de tecnologia</span></li>
 </ul>
 <h2>últimas</h2>
 <ul class="plain">${feed.slice(0, 3).map(row).join("")}</ul>
