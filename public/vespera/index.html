@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Véspera</title>
+<script>
+// Teste A/B: sorteia a variante na primeira visita, guarda no navegador e repete nas próximas.
+(function () {
+  var k = "vespera_ab", v;
+  try { v = localStorage.getItem(k); } catch (e) {}
+  if (v !== "a" && v !== "b") {
+    v = Math.random() < 0.5 ? "a" : "b";
+    try { localStorage.setItem(k, v); } catch (e) {}
+  }
+  location.replace("/vespera/" + v + "/" + location.search);
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=/vespera/a/"></noscript>
+</head>
+<body style="background:#13232B"></body>
+</html>
